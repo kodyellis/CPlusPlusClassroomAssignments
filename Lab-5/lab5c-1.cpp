@@ -1,5 +1,5 @@
-// Filename:   programname.cpp
-// Name: Ms. Thomas
+// Filename:   lab5c-1.cpp
+// Name: Kody Ellis
 // Class: CSCI 210 Programming I
 // Section/Lab: Section 2 - Tuesday and Thursday
 // Problem Description:Write a program that processes CS students’
