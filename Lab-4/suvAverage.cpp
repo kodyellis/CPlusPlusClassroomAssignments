@@ -1,5 +1,5 @@
-// Filename:   programname.cpp
-// Name: Ms. Thomas
+// Filename:   suvAverage.cpp
+// Name: Kody Ellis
 // Class: CSCI 210 Programming I
 // Section/Lab: Section 2 - Tuesday and Thursday
 // Problem Description:
