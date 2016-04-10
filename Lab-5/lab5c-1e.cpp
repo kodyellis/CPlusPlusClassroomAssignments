@@ -121,6 +121,25 @@ int main()
 		 << budget_difference << endl << "Refreshment or Fundraiser: " 
 		 << refreshment_or_fundraiser << endl << endl;
 	
+	
+	
+	//CASE6
+	budget = 975.00;
+	ticket_amount = 15;
+	event_type = 'F';
+	cout << endl << endl <<  "Budget = " << budget << endl
+		 << "Ticket Amount = " << ticket_amount << endl
+		 << "Event_type = " << event_type << endl << endl;
+	//Call functions
+	determineEventPrice(budget, ticket_amount, event_type,
+	total_cost, budget_difference, refreshment_or_fundraiser);
+	
+	//Output
+	cout << "Total Cost: " << total_cost << endl 
+		 << "The difference between the budget and the total cost: " 
+		 << budget_difference << endl << "Refreshment or Fundraiser: " 
+		 << refreshment_or_fundraiser << endl << endl;
+	
 	return 0;
 }
 
