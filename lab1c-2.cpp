@@ -49,7 +49,7 @@ float avg_cost;
 int main()
 {
    // data declarations
-	//system("clear");
+  //system("clear");
 
 
 
@@ -78,7 +78,8 @@ int main()
 
 
  // display output
-	cout << endl << endl << "Total Nmber of Games Purchased: " << total_num_games 
+// setprecision(x) allows for more precise control over output formatting.
+	cout << endl << endl << "Total Number of Games Purchased: " << total_num_games 
 	<< endl;
 	cout << fixed << setprecision(2) << "Total Sale Amount: " << total_cost << endl;
 	cout << fixed << setprecision(2) << "Average Cost Per Game: " << avg_cost << endl
