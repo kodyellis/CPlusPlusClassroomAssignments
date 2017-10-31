@@ -16,7 +16,7 @@
 #include <iostream>    // for input/output
 #include <cmath>      // for math functions
 #include <string>
-using namespace std;
+using namespace std;  //for cin cout functions
 // =============== symbolic constants ==============================
 const int  MED_PIZZA_SLICE_NUM = 6;
 const float  MED_PIZZA_PRICE = 7.99;
@@ -29,6 +29,7 @@ int slice_per_person;
 
 
 string pizzas = " pizzas";
+//Put period because slices is normally at the end of the sentence in this problem.
 string slices = " slices.";
 
 // =================== function prototype ==========================
@@ -36,7 +37,7 @@ string slices = " slices.";
 int main()
 {
    // data declarations
-	//system("clear");
+  //system("clear");
  // initialize / read in input
  
 	cout << "The app should read in the amount of"
@@ -52,13 +53,16 @@ int main()
 	cin >> people_to_feed;
 
  // calculate output
+	//amount of pizzas we can buy
 	pizza_purchase_amount = floor(budget / MED_PIZZA_PRICE);
+	//amount of slices in pizza times pizza purchase amount divided by people who want to eat
 	slice_per_person = floor(  (pizza_purchase_amount * 
 	MED_PIZZA_SLICE_NUM )  /  people_to_feed );
 	
+	//changes case from plural to singular
 	if (pizza_purchase_amount ==  1) 
 		pizzas = " pizza";
-		
+	//changes case from plural to singular		
 	if (slice_per_person == 1)
 		slices = " slice."; 
 
